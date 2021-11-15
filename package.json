@@ -1,0 +1,16 @@
+{
+  "name": "cypress-allied",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run" : "cypress run --spec 'cypress/integration/3-CypressDemo/CreateAccountPom.spec.js'",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
